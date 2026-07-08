@@ -1,0 +1,36 @@
+project_palanca/
+│
+├── core/                  # O motor lógico e algoritmos manuais
+│   ├── __init__.py
+│   ├── stabilizer.py      # Módulo 1: Optical Flow / OpenCV
+│   ├── detector.py        # Módulo 2: YOLO / Tracking / Filtro HSV
+│   ├── metrics.py         # Módulo 3: Homografia / Velocidade / Proximidade
+│   └── exporter.py        # Salva os dados processados em JSON/CSV
+│
+├── dashboard/             # Módulo 4: Interface Visual
+│   └── app.py             # Código do Streamlit
+│
+├── data/
+│   ├── raw/               # Vídeos originais (Sprint 0)
+│   └── processed/         # JSONs com as coordenadas extraídas
+│
+├── models/                # Pesos do YOLO (yolov8n.pt)
+│
+├── requirements.txt       # Dependências
+└── main.py                # Script principal que executa o pipeline via CLI
+
+
+O Teu Mapa de Progresso (Onde tu estás)
+Fase 0: A Fundação (Onde estás AGORA) * Criar as pastas (Feito! ✅)
+
+Ativar o Ambiente Virtual (Feito! ✅)
+
+Garantir que o Python consegue ver a tua câmara ou um vídeo de teste (Onde travaste).
+
+Fase 1: O Captador (Fazer o código ler um vídeo).
+
+Fase 2: O Olho de IA (Colocar o YOLOv8 para desenhar caixas nas pessoas).
+
+Fase 3: A Matemática (Calcular distâncias e velocidade).
+
+Fase 4: O Relatório (Mostrar os gráficos no Streamlit).
