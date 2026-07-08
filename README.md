@@ -1,4 +1,4 @@
-# ⚽ Project KILAMBA – Sports Computer Vision
+# ⚽ Project Palanca – Sports Computer Vision
 > **Mapeamento de Talento Através de Visão Computacional em Campos de Terra Batida**
 > 
 > *"O talento está no pé, o mérito está no dado."*
