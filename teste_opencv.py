@@ -17,7 +17,9 @@ def test_openv():
     if image is None:
         print ("Erro na leitura da imagem")
         return 
-    cv2.imshow('My image', image)
+    cv2.namedWindow("Palanca Grande", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("Palanca Grande", 1920, 1080)
+    cv2.imshow('Palanca Grande', image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
