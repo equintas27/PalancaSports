@@ -1,7 +1,9 @@
 import cv2
-import Numpy as Np
+import numpy as np
 
 class PalancaStabilizer:
-    def _init_ ():
+    def _init_ (self):
+        self.prev_frame_gray = None
+    def stabilizer(self, frame):
         
 

@@ -15,7 +15,9 @@ def     test_video_stream():
             print ("Erro ao carregar frame")
             break 
         cv2.imshow("Palanca Sports - Scouting Track", frame)
-        cv2.waitKey(120)
+        if cv2.waitKey(20) & 0xFF == 27 or cv2.waitKey(20) & 0xFF == ord('q') :
+            print ("Usuário saiu do video!")
+            break 
 
 if __name__ == "__main__":
     test_video_stream()
