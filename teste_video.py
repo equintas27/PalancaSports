@@ -1,7 +1,7 @@
 import cv2
 
 def     test_video_stream():
-    video_path = "Videos/futebol.mp4"
+    video_path = "Videos/Yamal.mp4"
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         print ("Erro ao abrir vídeo")

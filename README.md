@@ -6,7 +6,7 @@
 ---
 
 ## 1. Visão Geral (The Pitch)
-O **Projecto Kilamba** é um sistema automatizado de *Scouting* e Análise de Desempenho Desportivo baseado em Inteligência Artificial e Visão Computacional. 
+O **Projecto PalancaSports** é um sistema automatizado de *Scouting* e Análise de Desempenho Desportivo baseado em Inteligência Artificial e Visão Computacional. 
 
 O objetivo principal é democratizar o acesso ao futebol de elite em Angola, permitindo que jogadores talentosos de campeonatos de rua (inter-bairros) sejam avaliados por mérito puramente estatístico através de vídeos gravados por telemóveis comuns, quebrando o monopólio das influências e "cunhas".
 
